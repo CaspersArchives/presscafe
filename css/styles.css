@@ -1,0 +1,116 @@
+body{
+	 margin:0;
+	 font-family: "Lora", serif;
+}
+
+img{
+	width: 100%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+header{
+	background-image: url("../images/main_banner03.jpg");
+	background-size:cover;
+	height: 120vh;
+	position: relative;
+}
+
+header img{
+	width:300px;
+	margin: 30px 0 0 30px;
+}
+
+nav{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+
+}
+
+nav ul li{
+	float: left;
+	margin-left: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+header h1{
+	font-family: "Open Sans", sans-serif;
+	font-size: 96px;
+	font-weight: 800;
+	color: #88EBF2;
+	margin: 0px;
+	margin-left: 35px;
+	margin-bottom: -20px;
+}
+
+header h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color: white;
+	letter-spacing: 40px;
+	margin: 0px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+#blurb{
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+}
+
+main{
+	background-color: #DDD9D8;
+}
+
+.section-title{
+	text-align: center;
+	padding-top: 100px;
+	padding-block: 50px;
+}
+
+.section-title h2{
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 15px;
+}
+
+#services{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+}
+
+.card:first-child{
+	margin-left: 0px;
+}
+
+.card h4{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 24px;
+}
+
+.card p{
+	font-weight: 400;
+	font-size: 14px;
+}
